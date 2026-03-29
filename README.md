@@ -58,7 +58,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1774808077" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774808314" alt="Top Contributed Repos" />
 </p>
 
 <details>
