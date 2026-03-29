@@ -24,8 +24,6 @@ Here are some ideas to get you started:
 - Software Engineering
 - Based in Shenzhen, China
 
-<br/>
-
 ### Tech Stack
 
 **Languages**
