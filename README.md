@@ -56,13 +56,6 @@ Here are some ideas to get you started:
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-### GitHub Stats
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=waketzheng&show_icons=true&theme=onedark&hide_border=true&v=2" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waketzheng&layout=compact&theme=onedark&hide_border=true&v=2" />
-</p>
-
 ### Top Contributed Repositories
 
 <!-- CONTRIBUTIONS:START -->
