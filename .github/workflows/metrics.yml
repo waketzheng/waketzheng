@@ -1,0 +1,33 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  contributions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v6
+
+      - name: 🏆 Generate contributions table
+        run: python3 .github/scripts/generate-contributions.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: waketzheng
+          LIMIT: "0"
+          PAGE_SIZE: "10"
+          SVG_OUTPUT: metrics.plugin.contributions.svg
+          README: README.md
+
+      - name: 📤 Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.contributions.svg README.md
+          git diff --cached --quiet && echo "No changes" || (git commit -m "chore: update contributions [skip ci]" && git push)

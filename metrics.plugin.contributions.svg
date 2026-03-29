@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="570" viewBox="0 0 830 570" fill="none" role="img" aria-labelledby="titleId">
+  <title id="titleId">Top Contributed Repositories</title>
+
+    <style>
+      .header { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #58a6ff; }
+      @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
+      .repo-name { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #58a6ff; }
+      .description { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #adbac7; }
+      .gray { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #adbac7; }
+      .star { fill: #e3b341; }
+      .star-text { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e3b341; }
+      .icon { fill: #1f6feb; }
+      .divider { stroke: #e4e2e2; stroke-width: 0.5; opacity: 0.15; }
+    </style>
+  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" width="829" height="569" fill="#282c34" stroke="#e4e2e2" stroke-opacity="0"/>
+  <g transform="translate(25, 35)">
+    <svg class="icon" x="0" y="-13" viewBox="0 0 16 16" width="16" height="16">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    </svg>
+    <text x="25" y="0" class="header">Top Contributed Repositories</text>
+  </g>
+  <text x="25" y="75" class="repo-name">grpc/grpc</text>
+  <g transform="translate(789, 63)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="75" class="star-text" text-anchor="end">44.6k</text>
+  <circle cx="700.0625" cy="70" r="5" fill="#f34b7d"/>
+  <text x="710.0625" y="75" class="gray">C++</text>
+  <text x="25" y="93" class="description">C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)</text>
+  <line class="divider" x1="25" y1="105" x2="805" y2="105"/>
+  <text x="25" y="125" class="repo-name">Kludex/starlette</text>
+  <g transform="translate(789, 113)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="125" class="star-text" text-anchor="end">12.1k</text>
+  <circle cx="685.4375" cy="120" r="5" fill="#3572A5"/>
+  <text x="695.4375" y="125" class="gray">Python</text>
+  <text x="25" y="143" class="description">The little ASGI framework that shines. 🌟</text>
+  <line class="divider" x1="25" y1="155" x2="805" y2="155"/>
+  <text x="25" y="175" class="repo-name">Kludex/uvicorn</text>
+  <g transform="translate(789, 163)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="175" class="star-text" text-anchor="end">10.5k</text>
+  <circle cx="685.4375" cy="170" r="5" fill="#3572A5"/>
+  <text x="695.4375" y="175" class="gray">Python</text>
+  <text x="25" y="193" class="description">An ASGI web server, for Python. 🦄</text>
+  <line class="divider" x1="25" y1="205" x2="805" y2="205"/>
+  <text x="25" y="225" class="repo-name">pdm-project/pdm</text>
+  <g transform="translate(789, 213)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="225" class="star-text" text-anchor="end">8.6k</text>
+  <circle cx="692.09375" cy="220" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="225" class="gray">Python</text>
+  <text x="25" y="243" class="description">A modern Python package and dependency manager supporting the latest PEP standards</text>
+  <line class="divider" x1="25" y1="255" x2="805" y2="255"/>
+  <text x="25" y="275" class="repo-name">tortoise/tortoise-orm</text>
+  <g transform="translate(789, 263)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="275" class="star-text" text-anchor="end">5.5k</text>
+  <circle cx="692.09375" cy="270" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="275" class="gray">Python</text>
+  <text x="25" y="293" class="description">Familiar asyncio ORM for python, built with relations in mind</text>
+  <line class="divider" x1="25" y1="305" x2="805" y2="305"/>
+  <text x="25" y="325" class="repo-name">Tinche/aiofiles</text>
+  <g transform="translate(789, 313)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="325" class="star-text" text-anchor="end">3.2k</text>
+  <circle cx="692.09375" cy="320" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="325" class="gray">Python</text>
+  <text x="25" y="343" class="description">File support for asyncio</text>
+  <line class="divider" x1="25" y1="355" x2="805" y2="355"/>
+  <text x="25" y="375" class="repo-name">kayak/pypika</text>
+  <g transform="translate(789, 363)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="375" class="star-text" text-anchor="end">2.9k</text>
+  <circle cx="692.09375" cy="370" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="375" class="gray">Python</text>
+  <text x="25" y="393" class="description">PyPika is a python SQL query builder that exposes the full richness of the SQL language using a syntax t…</text>
+  <line class="divider" x1="25" y1="405" x2="805" y2="405"/>
+  <text x="25" y="425" class="repo-name">elapouya/python-docx-template</text>
+  <g transform="translate(789, 413)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="425" class="star-text" text-anchor="end">2.6k</text>
+  <circle cx="692.09375" cy="420" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="425" class="gray">Python</text>
+  <text x="25" y="443" class="description">Use a docx as a jinja2 template</text>
+  <line class="divider" x1="25" y1="455" x2="805" y2="455"/>
+  <text x="25" y="475" class="repo-name">pypiserver/pypiserver</text>
+  <g transform="translate(789, 463)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="475" class="star-text" text-anchor="end">2.0k</text>
+  <circle cx="692.09375" cy="470" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="475" class="gray">Python</text>
+  <text x="25" y="493" class="description">Minimal PyPI server for uploading &amp; downloading packages with pip/easy_install</text>
+  <line class="divider" x1="25" y1="505" x2="805" y2="505"/>
+  <text x="25" y="525" class="repo-name">tortoise/aerich</text>
+  <g transform="translate(789, 513)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="525" class="star-text" text-anchor="end">1.1k</text>
+  <circle cx="692.09375" cy="520" r="5" fill="#3572A5"/>
+  <text x="702.09375" y="525" class="gray">Python</text>
+  <text x="25" y="543" class="description">A database migrations tool for TortoiseORM, ready to production.</text>
+</svg>
