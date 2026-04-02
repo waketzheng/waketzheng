@@ -58,7 +58,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1775009234" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1775094891" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -67,8 +67,8 @@ Here are some ideas to get you started:
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 569 | Python | Show coverage stats online via coveralls.io |
-| [**Kludex/python-multipart**](https://github.com/Kludex/python-multipart) | 482 | Python | A streaming multipart parser for Python. |
-| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 380 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
+| [**Kludex/python-multipart**](https://github.com/Kludex/python-multipart) | 484 | Python | A streaming multipart parser for Python. |
+| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 379 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
 | [**defnull/multipart**](https://github.com/defnull/multipart) | 152 | Python | A fast multipart/form-data parser for python |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 84 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/tortoise-cli**](https://github.com/tortoise/tortoise-cli) | 25 | Python | A cli tool for tortoise-orm, build on top of click and ptpython |
