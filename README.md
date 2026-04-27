@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1777169621" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1777256675" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -65,8 +65,8 @@ Here are some ideas to get you started:
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 570 | Python | Show coverage stats online via coveralls.io |
 | [**Kludex/python-multipart**](https://github.com/Kludex/python-multipart) | 487 | Python | A streaming multipart parser for Python. |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 381 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
-| [**defnull/multipart**](https://github.com/defnull/multipart) | 154 | Python | A fast multipart/form-data parser for python |
-| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 84 | Python | The build backend used by PDM that supports latest packaging standards. |
+| [**defnull/multipart**](https://github.com/defnull/multipart) | 155 | Python | A fast multipart/form-data parser for python |
+| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 85 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/tortoise-cli**](https://github.com/tortoise/tortoise-cli) | 25 | Python | A cli tool for tortoise-orm, build on top of click and ptpython |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
 | [**tortoise/pypika-tortoise**](https://github.com/tortoise/pypika-tortoise) | 10 | Python | Forked from pypika and streamline just for tortoise-orm |
