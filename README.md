@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1778812970" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1778898735" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -62,7 +62,7 @@ Here are some ideas to get you started:
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 991 | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
+| [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 992 | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 570 | Python | Show coverage stats online via coveralls.io |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 382 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 85 | Python | The build backend used by PDM that supports latest packaging standards. |
