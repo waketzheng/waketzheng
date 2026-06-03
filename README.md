@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1780371036" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1780457860" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -62,7 +62,7 @@ Here are some ideas to get you started:
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 386 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
+| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 385 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 85 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/tortoise-cli**](https://github.com/tortoise/tortoise-cli) | 25 | Python | A cli tool for tortoise-orm, build on top of click and ptpython |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
