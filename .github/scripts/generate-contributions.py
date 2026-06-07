@@ -2,10 +2,11 @@
 """Generate a styled SVG card + collapsible markdown table for contributed repositories."""
 # Copied from https://github.com/Br1an67/Br1an67
 
+import hashlib
 import json
 import os
+import re
 import sys
-import time
 import urllib.request
 from pathlib import Path
 
@@ -36,6 +37,7 @@ THEME = {
     "border": "#e4e2e2",
     "hide_border": True,
 }
+HEX_COLOR_RE = re.compile(r"^#[0-9A-Fa-f]{6}$")
 
 GRAPHQL_QUERY = """
 query($login: String!, $after: String) {
@@ -244,6 +246,12 @@ def format_stars(count) -> str:
     return str(count)
 
 
+def sanitize_color(color: str | None) -> str:
+    if isinstance(color, str) and HEX_COLOR_RE.fullmatch(color):
+        return color
+    return THEME["text"]
+
+
 def escape_xml(text: str) -> str:
     if not text:
         return ""
@@ -258,6 +266,18 @@ def truncate(text: str, max_len=60) -> str:
     if len(text) <= max_len:
         return text
     return text[: max_len - 1].rstrip() + "…"
+
+
+def escape_markdown_cell(text: str) -> str:
+    if not text:
+        return ""
+    clean = " ".join(str(text).splitlines())
+    return (
+        clean.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace("|", r"\|")
+    )
 
 
 def generate_svg(repos: list) -> str:
@@ -323,7 +343,7 @@ def generate_svg(repos: list) -> str:
         desc = escape_xml(truncate(repo.get("description") or "", 105))
         lang = repo.get("primaryLanguage") or {}
         lang_name = lang.get("name", "")
-        lang_color = lang.get("color", THEME["text"])
+        lang_color = sanitize_color(lang.get("color"))
 
         # Subtle divider line between rows
         if i > 0:
@@ -361,9 +381,8 @@ def generate_svg(repos: list) -> str:
         # Language dot + name (left of stars)
         if lang_name:
             lang_text_w = measure_text(lang_name, 12)
-            lang_block_start = star_text_x - star_text_w - gap
-            lang_text_x = lang_block_start  # text-anchor="end"
-            dot_x = lang_text_x - lang_text_w - 8
+            star_text_left = star_text_x - star_text_w
+            dot_x = star_text_left - gap - lang_text_w - 10
             L.append(f'  <circle cx="{dot_x}" cy="{y_text - 5}" r="5" fill="{lang_color}"/>')
             L.append(
                 f'  <text x="{dot_x + 10}" y="{y_text}" class="gray">{escape_xml(lang_name)}</text>'
@@ -388,7 +407,10 @@ def generate_markdown_table(repos: list[dict]) -> str:
         lang = (repo.get("primaryLanguage") or {}).get("name", "—")
         desc = truncate(repo.get("description") or "", 100)
         url = f"https://github.com/{name}"
-        lines.append(f"| [**{name}**]({url}) | {stars} | {lang} | {desc} |")
+        lines.append(
+            f"| [**{escape_markdown_cell(name)}**]({url}) | {stars} | "
+            f"{escape_markdown_cell(lang)} | {escape_markdown_cell(desc)} |"
+        )
     return "\n".join(lines)
 
 
@@ -427,8 +449,8 @@ def main() -> None:
     print(f"Generated {SVG_OUTPUT} with {len(top_repos)} repos")
 
     # Generate README section: SVG image + collapsible table for the rest
-    # Add timestamp to bust GitHub's CDN cache
-    cache_buster = int(time.time())
+    # Bust GitHub's CDN cache only when the generated SVG content changes.
+    cache_buster = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
     readme_lines = []
     readme_lines.append('<p align="center">')
     readme_lines.append(
