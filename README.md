@@ -58,19 +58,16 @@ Here are some ideas to get you started:
 </p>
 
 <details>
-<summary>Show more (10 repositories)</summary>
+<summary>Show more (7 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 569 | Python | Show coverage stats online via coveralls.io |
-| [**Kludex/python-multipart**](https://github.com/Kludex/python-multipart) | 484 | Python | A streaming multipart parser for Python. |
-| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 379 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
-| [**defnull/multipart**](https://github.com/defnull/multipart) | 154 | Python | A fast multipart/form-data parser for python |
-| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 84 | Python | The build backend used by PDM that supports latest packaging standards. |
+| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 386 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
+| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 86 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/tortoise-cli**](https://github.com/tortoise/tortoise-cli) | 25 | Python | A cli tool for tortoise-orm, build on top of click and ptpython |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
+| [**Chr0nos/tortoise_vector**](https://github.com/Chr0nos/tortoise_vector) | 11 | Python | Tortoise-ORM pgvector implementation |
 | [**tortoise/pypika-tortoise**](https://github.com/tortoise/pypika-tortoise) | 10 | Python | Forked from pypika and streamline just for tortoise-orm |
-| [**Chr0nos/tortoise_vector**](https://github.com/Chr0nos/tortoise_vector) | 10 | Python | Tortoise-ORM pgvector implementation |
 | [**tortoise/tortoise.github.io**](https://github.com/tortoise/tortoise.github.io) | 3 | HTML | Docs of TortoiseORM |
 
 </details>
