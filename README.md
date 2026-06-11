@@ -17,8 +17,8 @@ Here are some ideas to get you started:
 
 ### About Me
 
-- Software Engineering
-- Based in Shenzhen, China
+- Python backend developer
+- Active open source contributor
 
 ### Tech Stack
 
