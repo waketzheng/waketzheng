@@ -49,7 +49,7 @@
   <line class="divider" x1="25" y1="255" x2="805" y2="255"/>
   <text x="25" y="275" class="repo-name">Tinche/aiofiles</text>
   <g transform="translate(789, 263)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="275" class="star-text" text-anchor="end">3.2k</text>
+  <text x="785" y="275" class="star-text" text-anchor="end">3.3k</text>
   <circle cx="690.09375" cy="270" r="5" fill="#3572A5"/>
   <text x="700.09375" y="275" class="gray">Python</text>
   <text x="25" y="293" class="description">File support for asyncio</text>
@@ -75,17 +75,17 @@
   <text x="700.09375" y="425" class="gray">Python</text>
   <text x="25" y="443" class="description">Minimal PyPI server for uploading &amp; downloading packages with pip/easy_install</text>
   <line class="divider" x1="25" y1="455" x2="805" y2="455"/>
-  <text x="25" y="475" class="repo-name">tortoise/aerich</text>
+  <text x="25" y="475" class="repo-name">ronf/asyncssh</text>
   <g transform="translate(789, 463)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="475" class="star-text" text-anchor="end">1.1k</text>
+  <text x="785" y="475" class="star-text" text-anchor="end">1.7k</text>
   <circle cx="690.09375" cy="470" r="5" fill="#3572A5"/>
   <text x="700.09375" y="475" class="gray">Python</text>
-  <text x="25" y="493" class="description">A database migrations tool for TortoiseORM, ready to production.</text>
+  <text x="25" y="493" class="description">AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv…</text>
   <line class="divider" x1="25" y1="505" x2="805" y2="505"/>
-  <text x="25" y="525" class="repo-name">sabuhish/fastapi-mail</text>
+  <text x="25" y="525" class="repo-name">tortoise/aerich</text>
   <g transform="translate(789, 513)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="525" class="star-text" text-anchor="end">995</text>
-  <circle cx="692.75625" cy="520" r="5" fill="#3572A5"/>
-  <text x="702.75625" y="525" class="gray">Python</text>
-  <text x="25" y="543" class="description">Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk)</text>
+  <text x="785" y="525" class="star-text" text-anchor="end">1.1k</text>
+  <circle cx="690.09375" cy="520" r="5" fill="#3572A5"/>
+  <text x="700.09375" y="525" class="gray">Python</text>
+  <text x="25" y="543" class="description">A database migrations tool for TortoiseORM, ready to production.</text>
 </svg>
