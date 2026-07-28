@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=40cbf06bd0b7" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=b2f0b777746b" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -63,7 +63,7 @@ Here are some ideas to get you started:
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**tortoise/aerich**](https://github.com/tortoise/aerich) | 1.1k | Python | A database migrations tool for TortoiseORM, ready to production. |
-| [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 996 | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
+| [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 998 | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 569 | Python | Show coverage stats online via coveralls.io |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 382 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 87 | Python | The build backend used by PDM that supports latest packaging standards. |
