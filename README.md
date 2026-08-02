@@ -54,15 +54,14 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=d800a326f603" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=38453a9dd5f3" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (10 repositories)</summary>
+<summary>Show more (9 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**tortoise/aerich**](https://github.com/tortoise/aerich) | 1.1k | Python | A database migrations tool for TortoiseORM, ready to production. |
 | [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 1.0k | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 569 | Python | Show coverage stats online via coveralls.io |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 383 | Python | A fast asyncio MySQL/MariaDB driver with replication protocol support |
