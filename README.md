@@ -54,17 +54,18 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=82f2a65733b0" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1fb62e9c4773" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (9 repositories)</summary>
+<summary>Show more (10 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 1.0k | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 569 | Python | Show coverage stats online via coveralls.io |
-| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 384 | Cython | The fastest asyncio MySQL/MariaDB driver — Cython-powered protocol core, aiomysql-compatible API, b… |
+| [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 386 | Python | The fastest asyncio MySQL/MariaDB driver — Cython-powered protocol core, aiomysql-compatible API, b… |
+| [**frankie567/pwdlib**](https://github.com/frankie567/pwdlib) | 169 | Python | Modern password hashing for Python |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 89 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/tortoise-cli**](https://github.com/tortoise/tortoise-cli) | 25 | Python | A cli tool for tortoise-orm, build on top of click and ptpython |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
