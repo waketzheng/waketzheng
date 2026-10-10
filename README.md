@@ -58,7 +58,7 @@ Here are some ideas to get you started:
 </p>
 
 <details>
-<summary>Show more (8 repositories)</summary>
+<summary>Show more (9 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
@@ -69,6 +69,7 @@ Here are some ideas to get you started:
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 90 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
 | [**Chr0nos/tortoise_vector**](https://github.com/Chr0nos/tortoise_vector) | 11 | Python | Tortoise-ORM pgvector implementation |
+| [**tortoise/pypika-tortoise**](https://github.com/tortoise/pypika-tortoise) | 10 | Python | Forked from pypika and streamline just for tortoise-orm |
 | [**tortoise/tortoise.github.io**](https://github.com/tortoise/tortoise.github.io) | 3 | HTML | Docs of TortoiseORM |
 
 </details>
