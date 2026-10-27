@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=e355d72a21d8" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=fdb4ec9b1a77" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -65,7 +65,7 @@ Here are some ideas to get you started:
 | [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 1.0k | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 573 | Python | Show coverage stats online via coveralls.io |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 393 | Python | The fastest asyncio MySQL/MariaDB driver — Cython-powered protocol core, aiomysql-compatible API, b… |
-| [**frankie567/pwdlib**](https://github.com/frankie567/pwdlib) | 182 | Python | Modern password hashing for Python |
+| [**frankie567/pwdlib**](https://github.com/frankie567/pwdlib) | 183 | Python | Modern password hashing for Python |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 90 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
 | [**tortoise/pypika-tortoise**](https://github.com/tortoise/pypika-tortoise) | 10 | Python | Forked from pypika and streamline just for tortoise-orm |
