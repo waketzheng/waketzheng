@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=fdb4ec9b1a77" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=34433c4f6a69" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -67,7 +67,7 @@ Here are some ideas to get you started:
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 393 | Python | The fastest asyncio MySQL/MariaDB driver — Cython-powered protocol core, aiomysql-compatible API, b… |
 | [**ZLMediaKit/pymkui**](https://github.com/ZLMediaKit/pymkui) | 207 | JavaScript | Python实现的ZLMediaKit后台管理网站和系统 |
 | [**frankie567/pwdlib**](https://github.com/frankie567/pwdlib) | 183 | Python | Modern password hashing for Python |
-| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 90 | Python | The build backend used by PDM that supports latest packaging standards. |
+| [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 89 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
 | [**tortoise/pypika-tortoise**](https://github.com/tortoise/pypika-tortoise) | 10 | Python | Forked from pypika and streamline just for tortoise-orm |
 | [**tortoise/tortoise.github.io**](https://github.com/tortoise/tortoise.github.io) | 3 | HTML | Docs of TortoiseORM |
