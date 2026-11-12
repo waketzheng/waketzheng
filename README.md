@@ -65,7 +65,7 @@ Here are some ideas to get you started:
 | [**sabuhish/fastapi-mail**](https://github.com/sabuhish/fastapi-mail) | 1.0k | Python | Fastapi mail system sending mails(individual, bulk) attachments(individual, bulk) |
 | [**TheKevJames/coveralls-python**](https://github.com/TheKevJames/coveralls-python) | 574 | Python | Show coverage stats online via coveralls.io |
 | [**long2ice/asyncmy**](https://github.com/long2ice/asyncmy) | 395 | Python | The fastest asyncio MySQL/MariaDB driver — Cython-powered protocol core, aiomysql-compatible API, b… |
-| [**ZLMediaKit/pymkui**](https://github.com/ZLMediaKit/pymkui) | 208 | JavaScript | Python实现的ZLMediaKit后台管理网站和系统 |
+| [**ZLMediaKit/pymkui**](https://github.com/ZLMediaKit/pymkui) | 209 | JavaScript | Python实现的ZLMediaKit后台管理网站和系统 |
 | [**frankie567/pwdlib**](https://github.com/frankie567/pwdlib) | 184 | Python | Modern password hashing for Python |
 | [**pdm-project/pdm-backend**](https://github.com/pdm-project/pdm-backend) | 89 | Python | The build backend used by PDM that supports latest packaging standards. |
 | [**tortoise/asyncodbc**](https://github.com/tortoise/asyncodbc) | 17 | Python | Forked from aioodbc and make improvement |
